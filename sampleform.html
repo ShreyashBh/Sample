@@ -1,0 +1,86 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        
+        <label>FullName </label><input type="text" name="Fname">(max 20 char a-z and A-Z)<br>
+        <label>LastName </label><input type="text" name="Lname">(max 20 char a-z and A-Z)<br>
+        <label>Date of birth</label><input type="month"><br>
+
+        <label>GENDER   </label>
+        <input type="radio" name="Gender" value="m" id="male1"><label for="male1">Male</label>
+        <input type="radio" name="Gender" value="f" id="Female1"><label for="Female1">Female</label><br>
+
+        <label>EMAIL ID </label><input type="email" name="email"><br>
+        <label>MOBILE NO</label><input type="number" name="no"><br>
+        <label>ADDRESS  </label><textarea rows="5" cols="40"></textarea><BR>
+        <label>CITY     </label><input type="text" name="CITY">(max 20 char a-z and A-Z)<br>
+        <label>PINCODE  </label><input type="number" name="PIN">(6 digit number)<br>
+        <label>STATE    </label><input type="text" name="C"><br>
+        <label>COUNTRY  </label><input type="text" name="C"><br>
+        <label>HOBBIES</label>
+        <input type="checkbox" name="HOBBY" value="DRAWING" id="DRAWING"><label for="DRAWING">DRAWING</label>
+        <input type="checkbox" name="HOBBY" value="SINGING" id="SINGING"><label for="SINGING">SINGING</label>
+        <input type="checkbox" name="HOBBY" value="DANCING" id="DANCING"><label for="DANCING">DANCING</label><br>
+        <input type="checkbox" name="HOBBY" value="OTHERS" id="OTHERS"><label for="OTHERS">OTHERS</label><input type="text" name="others"><br>
+        
+        
+        <label>Qualification</label>
+        <table ><tr>
+                <th>sl.no</th>
+                <th>Examination</th>
+                <th>Board</th>
+                <th>Percentage</th>
+                <th>Year of passing</th>
+           </tr>
+             <tr>
+                <td>01</td>
+                <td>Class X</td>
+                <td><input type="text" name="board"></td>
+                <td><input type="number"  name="%"></td>
+                <td><input type="number"  name="YOP"></td>
+                </tr>
+             <tr>
+                <td>02</td>
+                <td>Class II</td>
+                <td><input type="text" name="board"></td>
+                <td><input type="number" name="%"></td>
+                <td><input type="number" name="YOP"></td>
+             </tr>
+            <tr>
+                <td>03</td>
+                <td>Graduation</td>
+                <td><input type="text" name="board"></td>
+                <td><input type="number" name="%"></td>
+                <td><input type="number" name="YOP"></td>
+                
+            </tr>
+            <tr>
+                <td>04</td>
+                <td>Master</td>
+                <td><input type="text" name="board"></td>
+                <td><input type="number" name="%"></td>
+                <td><input type="number" name="YOP"></td>
+            </tr>
+        </table>
+        <table>
+        <tr>
+        <td>COURSES APPLIED FOR</td>
+        <td>
+        <input type="checkbox" name="COURSE" value="BCA" id="BCA"><label for="BCA">BCA</label>
+        <input type="checkbox" name="COURSE" value="B.COM" id="B.COM"><label for="B.COM">B.COM</label>
+        <input type="checkbox" name="COURSE" value="B.SC" id="B.SC"><label for="B.SC">B.SC</label><br>
+        <input type="checkbox" name="COURSE" value="B.A" id="B.A"><label for="B.A">B.A</label><br>
+        <input type="submit"><input type="reset">
+        </td>
+        </tr>
+        </table>
+    </form>
+    
+</body>
+</html>
